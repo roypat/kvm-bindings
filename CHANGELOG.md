@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.5.0-2]
+
+- [upstream] Use caret requirements for specifying dependencies and
+             update vmm-sys-util to 0.11.0
+
 ## [0.5.0-1]
 
 - [upstream] updated kvm-bindings to version 0.5.0
