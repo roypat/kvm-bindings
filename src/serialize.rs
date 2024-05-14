@@ -27,7 +27,7 @@ macro_rules! serde_impls {
                 where
                     D: Deserializer<'de>
                 {
-                    let bytes = Vec::<u8>::deserialize(deserializer)?;
+                    let bytes = <&[u8]>::deserialize(deserializer)?;
 
                     let mut backing = [0u8; std::mem::size_of::<$typ>()];
 
