@@ -1,3 +1,5 @@
+# This repository was archived on November 4th 2024, due to its contents being transferred to the [`rust-vmm/kvm`](https://github.com/rust-vmm/kvm) repository.
+
 [![Crates.io](https://img.shields.io/crates/v/kvm-bindings.svg)](https://crates.io/crates/kvm-bindings)
 ![](https://img.shields.io/crates/l/kvm-bindings.svg)
 # kvm-bindings
